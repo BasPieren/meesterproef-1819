@@ -1,80 +1,61 @@
 # Meesterproef 2019 @cmda-minor-web · 2018-2019 ⚙️
 
-This is my personal repo for the @cmda-minor-web 2019 'meesterproef'.
+This is my personal repo for the @cmda-minor-web 2019 meesterproef.
 
-![Project Image](https://i.imgur.com/ZALRBjH.png)
+![Project image](https://i.imgur.com/ETWYR4w.png)
 
 > Image description
 
 ## Table of Contents 🗃
 
-- [To Do](#to-do-)
 - [Description](#description-)
-- [Installing](#installing-)
-  - [Packages and Technologies](#packages-and-technologies)
+- [The Project](#the-project-)
 - [Learning Goals](#learning-goals-)
-- [Concept](#concept-)
-- [How It Works](#how-it-works-️)
-- [Sources](#sources-)
-  - [Honourable Mentions](#honourable-mentions)
+- [Product Biografie](#product-biografie)
+  - [Week 1](#week-1)
+  - [Week 2](#week-2)
+  - [Week 3](#week-3)
+  - [Week 4](#week-4)
+  - [Week 5](#week-5)
 - [Licence](#licence-)
-
-## To Do 📌
-
-This is a list of things I want to do in this project:
-
-- [ ] .
 
 ## Description 📝
 
-_Here goes the description of a project._
+In this repo I will describe my personal learning goals that I had set for the meesterproef, why I had set them and what I have done to acieve them. To see the project itself go [here](https://github.com/RobinStut/meesterproef/tree/development).
 
-## Installing 🔍
+## The Project 🏷
 
-To install this application enter the following into your terminal:
+Within the Southeast district of Amsterdam, the Sports promotion department is responsible for implementing the local sports promotion policy. The department is working on an accessible sports environment for all Amsterdam residents, where everyone can find the offer that suits him / her and can enjoy the sport. The Sports Stimulation department in Southeast has the desire to bring all sports, from events to workshops, to the center of attention through an app.
 
-```
-git clone https://github.com/BasPieren/readme-template.git
+I worked on this project togheter with three other students: [Robin Stut(https://github.com/RobinStut), [Sterre van Geest(https://github.com/sterrevangeest) and [Jesse Dijkman(https://github.com/jesseDijkman1). Although we were working togheter on this project, it was also important that we worked on our own personal learning goals.
 
-cd readme-template
-```
-
-### Packages and Technologies
-
-This project makes use of the following packages and technologies:
-
-- None!
+Our team worked togheter with four students from the UX minor to create a socail web app that could be used by both residetns of Southeast, sportproviders and sportsbrokers as a way to make more people join sportsclubs in Southeast.
 
 ## Learning Goals 🎓
 
-These are my learing goals for the 'meesterproef'.
+These are my learing goals for the meesterproef.
 
-### Web App From Scratch
+- Web App From Scratch
+  - **App structure and code quality:** In this project I want to pay close attetion to setting up the project in a modules and making sure we follow code guidlines.
+  - **Retrieve, manipulate and display data:** Since there is the potential that there will be a lot data that is displayed, I want to look into client side maniplution of that data.
+- CSS To The Rescue
+  - **The Student understands the broader scope of CSS:** I want to apply [BEM](http://getbem.com/introduction/) since I didn't get the opportunity during the CSS To The Rescue course.
+- Real Time Web
+  - **Data Managment:** I want to put extra though into data managment since I wasn't really able to do this in the Real Time Web course.
 
-- **App structuur en code kwaliteit:** "Je kan structuur aanbrengen in je code door patterns toe te passen. Je kan de keuze voor de gekozen patterns beargumenteren."
-- **Data ophalen, manipuleren en tonen:** "Je kan data ophalen, manipuleren en dynamisch omzetten naar html elementen mbv templating."
+## Product Biografie 🛠️
 
-### Real-Time-Web
+### Week 1
 
-- **Data Managment:** "Het datamodel is op een slimme manier opgezet die van dieper inzicht getuigd. Je hebt een datamodel gecreëerd dat nauw aansluit op jouw app en data."
+### Week 2
 
-## Concept 💡
+### Week 3
 
-Here I explain the concept for this project.
+### Week 4
 
-## How It Works 🛠️
+### Week 5
 
 Here I explain the core features of this project.
-
-## Sources 📚
-
-This is a list of all the sources I used during this project:
-
-- None!
-
-### Honourable Mentions
-
-- None!
 
 ## Licence 🔓
 
