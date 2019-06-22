@@ -108,14 +108,16 @@ An other important aspect was the social one. They got to meet alot of people wh
 
 After the tests we met with the rest of the team to discuss results. After that we went to the Bijlmer Sportpark to meet with Daan and Vincent, a sportsbroker who would fill on for Harry because he was on vacation. Here we once again discussed testing results and got some usefull feedback from Vincent. He told us that a lot of times people come to him with questions about where their childeren could sport. For him to have a list of all sports and clubs would be really helpfull.
 
-The rest of the week we started working on actually making stuff. The goal was to finish the homepage and have a semi working quiz by the start of next week so we could test again. Working with four developers on one project was kind of a challange for us since whe had never done it before. So whe had do dive in to using Git branches and start setting up modules. Our folder structure looked something like this:
+The rest of the week we started working on actually making stuff. The goal was to finish the homepage and have a semi working quiz by the start of next week so we could test again. Working with four developers on one project was kind of a challange for us since whe had never done it before. So whe had do dive in to using Git branches and start setting up modules.
+
+Our folder structure looked something like this:
 
 ```
 root
 |
 |- data
 |  |
-|  |-json
+|  |- json
 |  |- raw
 |
 |- modules
@@ -140,6 +142,14 @@ root
 |- app.js
 |
 ```
+
+The most important thing was to use modules. If we would made sure everybody was working on their own modules we would eliminate a large part of the merge conflicts.
+
+On thursday Sterre had finished a visual design that would act as our baseline for the UI. I started working on applying the styles to the HTML/CSS prototype.
+
+![Homepage UI Design](https://i.imgur.com/spBNCcq.png)
+
+> The UI design for the homepage.
 
 ### Week 3
 
