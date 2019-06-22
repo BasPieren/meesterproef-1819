@@ -173,7 +173,17 @@ On thuesday I finished up the HTML/CSS prototype. Since me and Sterre where occu
 
 > Robin and Jesse meeting with the UX'ers.
 
-Then on wednesday
+Then on wednesday I started to work on creating events as a sport provider. I started by thinking and drawing out how I wanted the data to flow through the application. These are a couple of very lo-fi sketches.
+
+![Sketch 1](https://i.imgur.com/GgvZTpH.jpg)
+
+![Sketch 2](https://i.imgur.com/fEkSBtB.jpg)
+
+I really wanted to make sure the data flow would be as well thought out as possible and make sure it was ready for real life situation. I was thinking about a couple of different things: How is the data model gonna look? Do I store event data together with sport provider data? Where am I gonna store the data? What data do I even need for a event?
+
+I started by setting up a basic HTML `form` and started adding `input` fields like title, description, date etc. Since we would not work with a real database I had to save on the server. So alot of my time in the third week went into setting up the user flow and thinking about how I wanted the data to look and behave.
+
+At the end of the week we also had a other meeting with Koop. We discussed our progress and showed him the now pretty much finished quiz. We also continued our conversation about working togheter with the UX'ers. It became pretty cleat that we just could not wait for them to develop their concept further. We also had the feeling that the UX'ers don't really know what to expect of us, what we can do. They are very much stuck in their personal grading and are focusing less on the project and the team work that could be happening but just isn't.
 
 ### Week 4
 
