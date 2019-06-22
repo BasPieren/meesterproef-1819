@@ -17,7 +17,6 @@ This is my personal repo for the @cmda-minor-web 2019 meesterproef.
   - [Week 3](#week-3)
   - [Week 4](#week-4)
   - [Week 5](#week-5)
-- [Licence](#licence-)
 
 ## Description 📝
 
@@ -35,15 +34,17 @@ Our team worked togheter with four students from the UX minor to create a socail
 
 These are my learing goals for the meesterproef:
 
-- Web App From Scratch
-  - **App structure and code quality:** In this project I want to pay close attetion to setting up the project in a modules and making sure we follow code guidlines.
-  - **Retrieve, manipulate and display data:** Since there is the potential that there will be a lot data that is displayed, I want to look into client side maniplution of that data.
-- CSS To The Rescue
-  - **The Student understands the broader scope of CSS:** I want to apply [BEM](http://getbem.com/introduction/) since I didn't get the opportunity during the CSS To The Rescue course.
-- Real Time Web
-  - **Data Managment:** I want to put extra though into data managment since I wasn't really able to do this in the Real Time Web course.
+- **Web App From Scratch**
+  - App structure and code quality: In this project I want to pay close attetion to setting up the project in a modules and making sure we follow code guidlines.
+  - Retrieve, manipulate and display data: Since there is the potential that there will be a lot data that is displayed, I want to look into client side maniplution of that data.
+- **CSS To The Rescue**
+  - The Student understands the broader scope of CSS: I want to apply [BEM](http://getbem.com/introduction/) since I didn't get the opportunity during the CSS To The Rescue course.
+- **Real Time Web**
+  - Data Managment: I want to put extra though into data managment since I wasn't really able to do this in the Real Time Web course.
 
 ## Product Biografie 🛠️
+
+Here I will describe the process of each week.
 
 ### Week 1
 
@@ -54,7 +55,3 @@ These are my learing goals for the meesterproef:
 ### Week 4
 
 ### Week 5
-
-## Licence 🔓
-
-MIT © [Bas Pieren](https://github.com/BasPieren)
