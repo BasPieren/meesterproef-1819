@@ -27,13 +27,13 @@ In this repo I will describe my personal learning goals that I had set for the m
 
 Within the Southeast district of Amsterdam, the Sports promotion department is responsible for implementing the local sports promotion policy. The department is working on an accessible sports environment for all Amsterdam residents, where everyone can find the offer that suits him / her and can enjoy the sport. The Sports Stimulation department in Southeast has the desire to bring all sports, from events to workshops, to the center of attention through an app.
 
-I worked on this project togheter with three other students: [Robin Stut(https://github.com/RobinStut), [Sterre van Geest(https://github.com/sterrevangeest) and [Jesse Dijkman(https://github.com/jesseDijkman1). Although we were working togheter on this project, it was also important that we worked on our own personal learning goals.
+I worked on this project togheter with three other students: [Robin Stut](https://github.com/RobinStut), [Sterre van Geest](https://github.com/sterrevangeest) and [Jesse Dijkman](https://github.com/jesseDijkman1). Although we were working togheter on this project, it was also important that we worked on our own personal learning goals.
 
 Our team worked togheter with four students from the UX minor to create a socail web app that could be used by both residetns of Southeast, sportproviders and sportsbrokers as a way to make more people join sportsclubs in Southeast.
 
 ## Learning Goals 🎓
 
-These are my learing goals for the meesterproef.
+These are my learing goals for the meesterproef:
 
 - Web App From Scratch
   - **App structure and code quality:** In this project I want to pay close attetion to setting up the project in a modules and making sure we follow code guidlines.
@@ -54,8 +54,6 @@ These are my learing goals for the meesterproef.
 ### Week 4
 
 ### Week 5
-
-Here I explain the core features of this project.
 
 ## Licence 🔓
 
