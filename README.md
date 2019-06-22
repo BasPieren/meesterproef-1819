@@ -11,12 +11,14 @@ This is my personal repo for the @cmda-minor-web 2019 meesterproef.
 - [Description](#description-)
 - [The Project](#the-project-)
 - [Learning Goals](#learning-goals-)
-- [Product Biografie](#product-biografie)
+- [Design Rationale](#design-rationale-)
+- [Product Biography](#product-biography-)
   - [Week 1](#week-1)
   - [Week 2](#week-2)
   - [Week 3](#week-3)
   - [Week 4](#week-4)
   - [Week 5](#week-5)
+- [Reflection](#reflection-)
 
 ## Description 📝
 
@@ -42,7 +44,11 @@ These are my learing goals for the meesterproef:
 - **Real Time Web**
   - _Data Managment:_ I want to put extra though into data managment since I wasn't really able to do this in the Real Time Web course.
 
-## Product Biografie 🛠️
+## Design Rationale 📑
+
+See the following [Gitbook](https://app.gitbook.com/@meesterproef/s/design-rationale/) for the design rationale.
+
+## Product Biography 🛠️
 
 Here I will describe the process of each week.
 
@@ -76,7 +82,7 @@ The platform should be focusing on the following aspects:
 - Self-Actualization
 - Community
 
-After that the UX studetens presented their wireframes. Harry was very happy with the progress so far and would provide us with people so we could test the wireframes in week 2.
+After that the UX students presented their wireframes. Harry was very happy with the progress so far and would provide us with people so we could test the wireframes in week 2.
 
 We, the team of web dev students, said that we would start setting up the project the following day.
 
@@ -84,7 +90,25 @@ We, the team of web dev students, said that we would start setting up the projec
 
 _3-8 juni_
 
-a
+We started the second week by continuing to project setup. During the (long) weekend we also had made agreements with the test groups that we were put into contact with by Harry and Daan that we would be testing on thuesday. The test group consistet of young people from a local school between the ages of 12 and 17 and a sportprovider named Gilbert who turned out to be a coach for a walking soccer team which consisted of elderly people.
+
+On monday we started by setting up a simple HTML and CSS prototype. We dind't want to work to far ahead since we would be testing the next day and the concept could change. We also met the the UX students to go over the (new) wireframes and discuss the testing for thuesday. Me and Jesse would join Johanna to go and test with Gilbert and Robin and Sterre would join Lisa and Christian to test at the local school.
+
+![Meeting](https://i.imgur.com/X5TOKT9.jpg)
+
+> Our meeting with the UX students.
+
+On thuesday me, Jesse and Johanna met with Gilbert and his people. What should have been a user test of the wireframe prototype that Johanna had build turnt more into a interview which didn't really matter because we got alot of usefull information. For Gilbert and his people, which were mostly all elderly, the most important thing was to stay healthy keep moving. They didn't what to be stuck at home with nothing to do.
+
+An other important aspect was the social one. They got to meet alot of people which they would continue to see both on and off the field. This creates a real community. They also highlighted that the webapp should be able to be used by older and newer devices, both mobile and desktop, because not everybody in Southeast has a smarthphone.
+
+![User test photo](https://i.imgur.com/34moKBk.jpg)
+
+> The test with Gilbert and people from the walking soccer team.
+
+After the tests we met with the rest of the team to discuss results. After that we went to the Bijlmer Sportpark to meet with Daan and Vincent, a sportsbroker who would fill on for Harry because he was on vacation. Here we once again discussed testing results and got some usefull feedback from Vincent. He told us that a lot of times people come to him with questions about where their childeren could sport. For him to have a list of all sports and clubs would be really helpfull.
+
+The rest of the week we started working on actually making stuff. The goal was to finish the homepage and have a semi working quiz by the start of next week so we could test again. Working with four people was kind of a challange for us since whe had never done it before. So whe had do dive in to using Git branches and start setting up modules.
 
 ### Week 3
 
@@ -103,3 +127,5 @@ a
 _24-27 juni_
 
 a
+
+## Reflection 🔬
