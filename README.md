@@ -106,7 +106,7 @@ An other important aspect was the social one. They got to meet alot of people wh
 
 > The test with Gilbert and people from the walking soccer team.
 
-After the tests we met with the rest of the team to discuss results. After that we went to the Bijlmer Sportpark to meet with Daan and Vincent, a sportsbroker who would fill on for Harry because he was on vacation. Here we once again discussed testing results and got some usefull feedback from Vincent. He told us that a lot of times people come to him with questions about where their childeren could sport. For him to have a list of all sports and clubs would be really helpfull.
+After the tests we met with the rest of the team to discuss results. After that we went to the Bijlmer Sportpark to meet with Daan and Vincent, a sportsbroker who would fill on for Harry because he was on vacation. Here we once again discussed testing results and got some usefull feedback from Vincent. He told us that a lot of times people come to him with questions about where their childeren could sport. For him to have a list of all sports and clubs would be really helpfull. He also gave us an other lead for potential testing groups.
 
 The rest of the week we started working on actually making stuff. The goal was to finish the homepage and have a semi working quiz by the start of next week so we could test again. Working with four developers on one project was kind of a challange for us since whe had never done it before. So whe had do dive in to using Git branches and start setting up modules.
 
@@ -145,17 +145,35 @@ root
 
 The most important thing was to use modules. If we would made sure everybody was working on their own modules we would eliminate a large part of the merge conflicts.
 
-On thursday Sterre had finished a visual design that would act as our baseline for the UI. I started working on applying the styles to the HTML/CSS prototype.
+On thursday Sterre had finished a visual design that would act as our baseline for the UI. I started working on applying the styles to the HTML/CSS prototype for the rest of the week.
 
 ![Homepage UI Design](https://i.imgur.com/spBNCcq.png)
 
 > The UI design for the homepage.
 
+On friday we also had our first meeting with Koop in which we discussed the progress of the project. And I will be honest that I got kind of... vocal. I pointed out that I wasn't to happy with how the UX'ers where using us to make the testing appointments because, them speaking english, they fought it would be better if we did it which kind of rubbed me the wrong way. Whe then started discussing the cooperation between the two minors and Koop pointed out some serious flawes in the concept and found it more of an idea than a serious concept. I dind't really see the problem, we are the developers in this situation, we make the stuff they come up with. Concepting is their speciality.
+
+Koop saw this differently. He said we needed to be more active in the concepting process and build more prototypes to test asumptions/ideas. I disagreed. I said that I dind't choose the web dev minor to start working on concepts and that I wanted to make one single solid product, not a bunch of spaghetti code prototypes.
+
+Now I said I understaind that we come from CMD, we are not brainless developers that just make what they are given. But for the meesterproef we get graded for what we make, not the concept. Koop still disagreed. I said "Well I choose the wrong project then."
+
+So after our meeting we said down and started prioretising the most important features in the app. Whe made a MoSCow chart. I would start working out the sport provider flow of creating events since I wanted to focus on data managment.
+
+![MoSCoW](https://i.imgur.com/bkKiAp4.jpg)
+
+> Our (simple) MoSCow chart.
+
 ### Week 3
 
 _10-14 juni_
 
-a
+On thuesday I finished up the HTML/CSS prototype. Since me and Sterre where occupied for the rest of the day Robin and Jesse went on to sit down with the UX'ers and discuss the quiz, which was nearing its stage of being functional, and show how the prototype was looking.
+
+![Meeting photo](https://i.imgur.com/vkwbWw6.jpg)
+
+> Robin and Jesse meeting with the UX'ers.
+
+Then on wednesday
 
 ### Week 4
 
