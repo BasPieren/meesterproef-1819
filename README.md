@@ -50,13 +50,35 @@ Here I will describe the process of each week.
 
 _27-31 juli_
 
-Altough the project officially started in the week of the 27th of juli we had the kick-off a week earlier. During the kick-off we sat down with Harry, Daan and the UX students. Harry gave a brief intro where he talked about what the project wants to acieve: To get more people to join a sports club. He continued by saying that there is a lot of offer but just not enough partisipants. So he wants to create platform where all the information that is already out there comes togheter in one place, a webapp/website.
+Altough the project officially started in the week of the 27th of juli we had the kick-off a week earlier. During the kick-off we sat down with Harry from the sports promotion department, Daan from 'Academie van de Stad' and the UX students from the UX minor. Harry gave a brief intro where he talked about what the project wants to acieve: To get more people to join a sports club. He continued by saying that there is a lot of offer but just not enough partisipants. So he wants to create platform where all the information that is already out there comes togheter in one place, a webapp/website.
 
 The UX students already started working on the project 2 weeks earlier during their minor and they presented the early stages of their concepts. They all basically came down to the same thing: A place where people can share and lookup sports, stories and events and find out what sports fits them through a online quiz. They want sport providers to have a seperate enviorment where they can create events and add other information about their sport club/organization to the platform.
 
 We then started discussing what we could and what we could not do. The whay we saw it we could setup most of the platform, even if it where just static pages, and then work out what was really needed. Due to the lack of wireframes at the moment we weren't really able to make a clear promise of what we would deliver.
 
 The plan for the first week was that the UX'ers would finish their wireframes on monday and present them to us and Harry on thuesday.
+
+On thuesday the 28th the UX students gave their presentation where they adressed the following points:
+
+###### The Problem
+
+> "There are many sport providers in Zuidoost (around 180), but the participation of the inhabitants (around 900.000) in sport activities there is the lowest in whole Amsterdam. Providers often have difficulty in spotlighting their offer and potential users may have problems to find what they are looking for." - UX Students
+
+###### The Assignment
+
+> "Design digital interfaces so the full range of sports in Zuidoost in the first place and secondly for whole Amsterdam can be reached. The platform should function as an overview for all sport offerings." - UX Students
+
+The most important goal is to: **"Increase sport activity of the inhabitants of Zuidoost."**
+
+The platform should be focusing on the following aspects:
+
+- Information
+- Self-Actualization
+- Community
+
+After that the UX studetens presented their wireframes. Harry was very happy with the progress so far and would provide us with people so we could test the wireframes in week 2.
+
+We, the team of web dev students, said that we would start setting up the project the following day.
 
 ### Week 2
 
