@@ -98,7 +98,7 @@ On monday we started by setting up a simple HTML and CSS prototype. We dind't wa
 
 > Our meeting with the UX students.
 
-On thuesday me, Jesse and Johanna met with Gilbert and his people. What should have been a user test of the wireframe prototype that Johanna had build turnt more into a interview which didn't really matter because we got alot of usefull information. For Gilbert and his people, which were mostly all elderly, the most important thing was to stay healthy keep moving. They didn't what to be stuck at home with nothing to do.
+On thuesday me, Jesse and Johanna met with Gilbert and his people. What should have been a user test of the wireframe prototype that Johanna had build turnt more into a interview which didn't really matter because we got alot of usefull information. For Gilbert and his people, which were mostly all elderly, the most important thing was to stay healthy and keep moving. They didn't what to be stuck at home with nothing to do.
 
 An other important aspect was the social one. They got to meet alot of people which they would continue to see both on and off the field. This creates a real community. They also highlighted that the webapp should be able to be used by older and newer devices, both mobile and desktop, because not everybody in Southeast has a smarthphone.
 
@@ -108,7 +108,38 @@ An other important aspect was the social one. They got to meet alot of people wh
 
 After the tests we met with the rest of the team to discuss results. After that we went to the Bijlmer Sportpark to meet with Daan and Vincent, a sportsbroker who would fill on for Harry because he was on vacation. Here we once again discussed testing results and got some usefull feedback from Vincent. He told us that a lot of times people come to him with questions about where their childeren could sport. For him to have a list of all sports and clubs would be really helpfull.
 
-The rest of the week we started working on actually making stuff. The goal was to finish the homepage and have a semi working quiz by the start of next week so we could test again. Working with four people was kind of a challange for us since whe had never done it before. So whe had do dive in to using Git branches and start setting up modules.
+The rest of the week we started working on actually making stuff. The goal was to finish the homepage and have a semi working quiz by the start of next week so we could test again. Working with four developers on one project was kind of a challange for us since whe had never done it before. So whe had do dive in to using Git branches and start setting up modules. Our folder structure looked something like this:
+
+```
+root
+|
+|- data
+|  |
+|  |-json
+|  |- raw
+|
+|- modules
+|
+|- public
+|  |
+|  |- css
+|  |  |
+|  |  |- modules
+|  |  |- styles.css
+|  |- images
+|  |- js
+|  |  |- modules
+|  |  |- script.js
+|
+|- views
+|  |
+|  |- pages
+|  |  |- index.ejs
+|  |- partials
+|
+|- app.js
+|
+```
 
 ### Week 3
 
