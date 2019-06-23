@@ -19,6 +19,10 @@ This is my personal repo for the @cmda-minor-web 2019 meesterproef.
   - [Week 4](#week-4)
   - [Week 5](#week-5)
 - [Reflection](#reflection-)
+  - [Web App From Scratch](#web-app-from-scratch)
+  - [CSS To The Rescue](#css-to-the-rescue)
+  - [Real Time Web](#real-time-web)
+  - [Git/GitHub](#git/github)
 
 ## Description 📝
 
@@ -255,3 +259,53 @@ _24-27 juni_
 a
 
 ## Reflection 🔬
+
+Here I will reflect on my learning goals which I set in the beginning of the project.
+
+### Web App From Scratch
+
+### CSS To The Rescue
+
+### Real Time Web
+
+### Git/GitHub
+
+When it comes to Git/GitHub I really learnt alot, even how unimportant or simple it may seem. When I started on this project I never worked with multiple developers on one project. I also never really utilised all the options of Git or GitHub for that matter. So one of the first things I did was to write a small Git manual on how to work with multiple branches.
+
+###### Branch Structure
+
+```
+master: The main branch. Everything thats on here works 100%.
+|
+|- development: The branch that we are working on. Development should be merged every week with master.
+|  |
+|  |- feature/name: The branch you create to work on a feature. Before you create a new feature you must pull from development.
+|
+```
+
+We also followed some guidelines from [Maikel van Veen](https://github.com/Maikxx) which came pretty close to what I was already doing in personal projects. [Version Control Guidelines](https://github.com/Maikxx/360-wallscope/blob/master/docs/guidelines/VERSION_CONTROL.md) sets a clear set of rules as to how your commits (and branches) should look. So something like `action(scope): description`.
+
+When you write a commit you start with one of the following `action` tags:
+
+- **feature(scope):** This is for when you create a new feature.
+- **fix(scope):** This is for when you fix a bug.
+- **refactor(scope):** This is for when you rewrite a piece of code so that it looks better, or is written in a nicer way.
+- **copy(scope):** This is for when you change the copy of a piece of text in the application or are writing docs.
+
+Then comes the `(scope)`, which can be whatever you are working on. For example `(create-event)` or `(login)`.
+
+Then comes the `description`. I personally always make sure elements match with how they look when writing the `description`. For example:
+
+- Files have their file extension next to them. For example `style.css` or `script.js`.
+- HTML elements are put between `< >`. So for example when you have added a section you write `<section>`.
+- New CSS styling looks like this for example `.shiney-class` or `#important-id`.
+
+The most important thing is that your fellow developers can easily see what you have been working on.
+
+After a small hearth attack with someone, I wont name any names, accidentally deleted the `development` branch, we also activated branch protection. This allows to to set sertain rules for a branch. For example when you are finished working on a feature you can't just merge it with `development` and push it to the repository. You have to create a pull request that has the required number of approving reviews before it is allow to be merged into master.
+
+![Branch Protection](https://i.imgur.com/ixlVbpz.png)
+
+> Branch Protection Settings
+
+So after being able to dive into these conventions and features, I got a better image of how companies work with Git/GitHub in the real world and this feels like one of the last things that I needed to be introduced to.
