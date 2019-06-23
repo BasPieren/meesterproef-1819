@@ -235,6 +235,14 @@ After the presentation we made the desicion to strip the prototype of all the ex
 - **The sport provider:** The flow the sport provider goes through of adding a event.
 - **The sportsbroker:** The flow the sportsbroker goes through of finding a sport for someone that comes to him for help.
 
+On wednesday we started our big refactor we discussed the day before. We divided the refactors into four branches: refactor/ejs-refactor, refactor/css-refactor, refactor/js-refactor and refactor/node-refactor. I worked on the CSS refactor. After the refactor I went on to do some bug fixes that were created during the merging of all the branches.
+
+The rest of the week I continued work on the adding of events. On thursday we also wanted to work out our data management better. We noticed that alot, if not all, of the time we where fetching all the data again and again. So we worked out the flow of what should happen when we already have and don't have the data. This was the result:
+
+![Data management](https://i.imgur.com/RdGDRuj.jpg)
+
+> New data management flow.
+
 ### Week 5
 
 _24-27 juni_
