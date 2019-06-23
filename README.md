@@ -36,13 +36,18 @@ Our team worked togheter with four students from the UX minor to create a socail
 
 These are my learing goals for the meesterproef:
 
-- **Web App From Scratch**
-  - _App structure and code quality:_ In this project I want to pay close attetion to setting up the project in a modules and making sure we follow code guidlines.
-  - _Retrieve, manipulate and display data:_ Since there is the potential that there will be a lot data that is displayed, I want to look into client side maniplution of that data.
-- **CSS To The Rescue**
-  - _The Student understands the broader scope of CSS:_ I want to apply [BEM](http://getbem.com/introduction/) since I didn't get the opportunity during the CSS To The Rescue course.
-- **Real Time Web**
-  - _Data Managment:_ I want to put extra though into data managment since I wasn't really able to do this in the Real Time Web course.
+| Coures                   | Goal                                                | Description                                                                                                                             |
+| ------------------------ | --------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| **Web App From Scratch** | _App structure and code quality._                   | In this project I want to pay close attetion to setting up the project in a modules and making sure we follow code guidlines.           |
+|                          | _Retrieve, manipulate and display data._            | Since there is the potential that there will be a lot data that is displayed, I want to look into client side maniplution of that data. |
+| **CSS To The Rescue**    | _The Student understands the broader scope of CSS._ | I want to apply [BEM](http://getbem.com/introduction/) since I didn't get the opportunity during the CSS To The Rescue course.          |
+| **Real Time Web**        | _Data Managment._                                   | I want to put extra though into data managment since I wasn't really able to do this in the Real Time Web course.                       |
+
+And not a rubic from the previous courses but I want to learn more about working togheter on a Git/GitHub project.
+
+| Technology | Goal                 | Descriptino                                                                                  |
+| ---------- | -------------------- | -------------------------------------------------------------------------------------------- |
+| **Github** | _Project work flow._ | I want to learn how to work together with other developers on a project that uses Git/GitHub |
 
 See [here](#reflection-) for my reflection on my learing goals.
 
