@@ -193,7 +193,29 @@ So thats what we did. We decided to focus more on events so that we could use th
 
 _17-21 juni_
 
-a
+Week 4, the week om some (kinda?) big changes. On thuesday we would have another meeting with Vincent, Daan and the UX'ers where we would show our digital prototype for the first time. Kinda late but this was because we didn't have a meeting in week 3. So on monday we focused on finishing up some small details so that our prototype would be ready for the next day.
+
+I worked on creating a events page that would show all the events that where created. In the futher I also wanted to add a filter so the user would be able filter the events to find something to their likeing. When we where working on monday I got the feeling that the project structure was kinda begining to derail so this was something I wanted to adress the next day.
+
+So on thuesday we would have the meeting at 16:00 PM. We started the day by working on our project structur. I had noticed that our modules folders where beginning to get kind of crowed with all kind of different module files and we all started to loose the overview of what module was for what. So we started to draw ot a new structure.
+
+![Drawing Structure](https://i.imgur.com/t0zYToS.jpg)
+
+> Drawing the new module structure.
+
+The goal was to create new folders inside the current modules folders for each page and rename the files acordingly with a prefix of that page. This way every folder would be setup in the same way and people can quickly see what module is for what.
+
+![New Structure](https://i.imgur.com/bbKRkQj.jpg)
+
+> The finished new module structure.
+
+We also went to sit down and discuss our code. Also here things where kinda getting messed up so it was time for a refactor. We were rewriting things that didn't nead rewriting, code was wrtitten outside of its module and we were kinda slacking on the code guidelines. So we discussed what we needed to do for the CSS, Client side Javascript and for the Node.js modules to get it back into order again. We also all installed Prettier so that we could keep writing in our own style but on save every would be formated to the guidelines.
+
+![Refactor Class](https://i.imgur.com/kiDbAoB.jpg)
+
+> The refactor class
+
+This is some stuff we should have done in the beginning. We just got carried away with just starting to code that we dind't really think it through.
 
 ### Week 5
 
