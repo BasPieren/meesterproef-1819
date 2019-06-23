@@ -44,6 +44,8 @@ These are my learing goals for the meesterproef:
 - **Real Time Web**
   - _Data Managment:_ I want to put extra though into data managment since I wasn't really able to do this in the Real Time Web course.
 
+See [here](#reflection-) for my reflection on my learing goals.
+
 ## Design Rationale 📑
 
 See the following [Gitbook](https://app.gitbook.com/@meesterproef/s/design-rationale/) for the design rationale.
@@ -115,29 +117,29 @@ Our folder structure looked something like this:
 ```
 root
 |
-|- data
+|- data/
 |  |
-|  |- json
-|  |- raw
+|  |- json/
+|  |- raw/
 |
-|- modules
+|- modules/
 |
-|- public
+|- public/
 |  |
-|  |- css
+|  |- css/
 |  |  |
-|  |  |- modules
+|  |  |- modules/
 |  |  |- styles.css
-|  |- images
-|  |- js
+|  |- images/
+|  |- js/
 |  |  |- modules
 |  |  |- script.js
 |
-|- views
+|- views/
 |  |
-|  |- pages
+|  |- pages/
 |  |  |- index.ejs
-|  |- partials
+|  |- partials/
 |
 |- app.js
 |
@@ -177,7 +179,11 @@ Then on wednesday I started to work on creating events as a sport provider. I st
 
 ![Sketch 1](https://i.imgur.com/GgvZTpH.jpg)
 
+> Skecth 1
+
 ![Sketch 2](https://i.imgur.com/fEkSBtB.jpg)
+
+> Skecth 2
 
 I really wanted to make sure the data flow would be as well thought out as possible and make sure it was ready for real life situation. I was thinking about a couple of different things: How is the data model gonna look? Do I store event data together with sport provider data? Where am I gonna store the data? What data do I even need for a event?
 
@@ -209,13 +215,25 @@ The goal was to create new folders inside the current modules folders for each p
 
 > The finished new module structure.
 
-We also went to sit down and discuss our code. Also here things where kinda getting messed up so it was time for a refactor. We were rewriting things that didn't nead rewriting, code was wrtitten outside of its module and we were kinda slacking on the code guidelines. So we discussed what we needed to do for the CSS, Client side Javascript and for the Node.js modules to get it back into order again. We also all installed Prettier so that we could keep writing in our own style but on save every would be formated to the guidelines.
+We also went to sit down and discuss our code. Also here things where kinda getting messed up so it was time for a refactor. We were rewriting things that didn't nead rewriting, code was wrtitten outside of its module and we were kinda slacking on the code guidelines. So we discussed what we needed to do for the CSS, client side Javascript and for the Node.js modules to get it back into order again. We also all installed Prettier so that we could keep writing in our own style but on save every would be formated to the guidelines.
 
 ![Refactor Class](https://i.imgur.com/kiDbAoB.jpg)
 
 > The refactor class
 
 This is some stuff we should have done in the beginning. We just got carried away with just starting to code that we dind't really think it through.
+
+In the afternoon we met with Vincent, Daan and the UX'ers to discuss progress. I held a short presentation where I showed the prototype and walked through the features while also explaining our new concept of focusing more on the events. We got some mixed reviews. Vincent askes why we could not have both the sport clubs and events at once. We explaind that you could have that but you want to give people the opertunity to try out a sport first before you direct them to a page where they can subscribe for a membership. I got the feeling that Vincent was still sceptical.
+
+I think the problem was that we put alot of work into things that they could not directly see. For example when the UX'ers showed they visual design prototype that they made in XD, there were some fancy animations and stuff that the client liked but we knew was not real.
+
+We also explained what we would deliver in the end. Vincent was under the impression that he would get a fully functional product, which, we explained, was just not possible in the time that we had. We said that they would get a prototype that they could use to test further and use as a basis to start developing futher on.
+
+After the presentation we made the desicion to strip the prototype of all the excess links that we would develop further so that every thing that was there, they would be able to use. We would continue working on three user flows:
+
+- **The user:** The flow the user goes through to find sports that match him and events that he can join to try out that sport.
+- **The sport provider:** The flow the sport provider goes through of adding a event.
+- **The sportsbroker:** The flow the sportsbroker goes through of finding a sport for someone that comes to him for help.
 
 ### Week 5
 
