@@ -297,7 +297,7 @@ let event = {
 }
 ```
 
-My goal was to be as precise as I could when making these objects, so thats why there are multiple objects within objects. The object itself whent through multiple changes, for example when we decided that their needed to be a differacne between trainings and events and the ability to upload images.
+My goal was to be as precise as I could when making these objects, so thats why there are multiple objects within objects. The object itself whent through multiple changes, for example when we decided that their needed to be a difference between trainings and events and the ability to upload images.
 
 ###### Version 2
 
@@ -328,7 +328,7 @@ let event = {
 }
 ```
 
-The flow of saving the data on the server worked as follows: The module has two parameters: `conceptEvents` and `eventsData` which are variables with empty arrays that are on the server. `conceptEvents` will be filled when the sport provider first makes a event but hasen't published it yet. Then when he wants to publish the event, the folowing `POST` request fires. Whe check if the url is `/publish-event` and if the `eventsData` array is empty. If it is whe push the data from `conceptEvents`into it and clear `conceptEvents` before we redirect the user to the events page.
+The flow of saving the data on the server worked as follows: The module has two parameters: `conceptEvents` and `eventsData` which are variables with empty arrays that are on the server. `conceptEvents` will be filled when the sport provider first makes a event but hasn't published it yet. Then when he wants to publish the event, the folowing `POST` request fires. Whe check if the url is `/publish-event` and if the `eventsData` array is empty. If it is whe push the data from `conceptEvents` into it and clear `conceptEvents` before we redirect the user to the events page.
 
 But if the `eventsData` is not empty whe start a check. Whe try to `find()` a matching title. This is to prevent duplicate events. If the tile doesn't exist we fill `eventsData`.
 
