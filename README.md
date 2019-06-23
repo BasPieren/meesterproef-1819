@@ -58,7 +58,7 @@ Here I will describe the process of each week.
 
 _27-31 juli_
 
-Altough the project officially started in the week of the 27th of juli we had the kick-off a week earlier. During the kick-off we sat down with Harry from the sports promotion department, Daan from 'Academie van de Stad' and the UX students from the UX minor. Harry gave a brief intro where he talked about what the project wants to acieve: To get more people to join a sports club. He continued by saying that there is a lot of offer but just not enough partisipants. So he wants to create platform where all the information that is already out there comes togheter in one place, a webapp/website.
+Altough the project officially started in the week of the 27th of juli we had the kick-off a week earlier. During the kick-off we sat down with Harry from the sports promotion department, Daan from the [Academie van de Stad](https://academievandestad.nl) and the UX students from the UX minor. Harry gave a brief intro where he talked about what the project wants to acieve: To get more people to join a sports club. He continued by saying that there is a lot of offer but just not enough partisipants. So he wants to create platform where all the information that is already out there comes togheter in one place, a webapp/website.
 
 The UX students already started working on the project 2 weeks earlier during their minor and they presented the early stages of their concepts. They all basically came down to the same thing: A place where people can share and lookup sports, stories and events and find out what sports fits them through a online quiz. They want sport providers to have a seperate enviorment where they can create events and add other information about their sport club/organization to the platform.
 
@@ -235,7 +235,7 @@ After the presentation we made the desicion to strip the prototype of all the ex
 - **The sport provider:** The flow the sport provider goes through of adding a event.
 - **The sportsbroker:** The flow the sportsbroker goes through of finding a sport for someone that comes to him for help.
 
-On wednesday we started our big refactor we discussed the day before. We divided the refactors into four branches: refactor/ejs-refactor, refactor/css-refactor, refactor/js-refactor and refactor/node-refactor. I worked on the CSS refactor. After the refactor I went on to do some bug fixes that were created during the merging of all the branches.
+On wednesday we started our big refactor we discussed the day before. We divided the refactors into four branches: `refactor/ejs-refactor`, `refactor/css-refactor`, `refactor/js-refactor` and `refactor/node-refactor`. I worked on the CSS refactor. After the refactor I went on to do some bug fixes that were created during the merging of all the branches.
 
 The rest of the week I continued work on the adding of events. On thursday we also wanted to work out our data management better. We noticed that alot, if not all, of the time we where fetching all the data again and again. So we worked out the flow of what should happen when we already have and don't have the data. This was the result:
 
