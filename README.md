@@ -366,7 +366,7 @@ module.exports = (app, fs, conceptEvents, eventsData) => {
 }
 ```
 
-The biggest challange came when we made the change from saving data on the server, to saving the data in a seperate JSON file. The obvious first argument to do this was because every time the server would restart the data would be lost since whe didn't have a database and whe had to store the data somewhere else. But whe also had to think about what would happen when we already had fetched the data once before and what when we had not yet. Thats where our data management discussion from [week 4](#week-4) comes in.
+The biggest challange came when we made the change from saving data on the server, to saving the data in a seperate JSON files and thinking of how they needed to work together. The obvious first argument to do this was because every time the server would restart the data would be lost since whe didn't have a database and whe had to store the data somewhere else. But whe also had to think about what would happen when we already had fetched the data once before and what when we had not yet. Thats where our data management discussion from [week 4](#week-4) comes in.
 
 Here is once again the diagram that we drawed:
 
