@@ -302,7 +302,7 @@ Then comes the `description`. I personally always make sure elements match with 
 
 The most important thing is that your fellow developers can easily see what you have been working on.
 
-After a small hearth attack with someone, I wont name any names, accidentally deleted the `development` branch, we also activated branch protection. This allows to to set sertain rules for a branch. For example when you are finished working on a feature you can't just merge it with `development` and push it to the repository. You have to create a pull request that has the required number of approving reviews before it is allow to be merged into master.
+After a small hearth attack when someone, I wont name any names, accidentally deleted the `development` branch, we also activated branch protection. This allows to to set sertain rules for a branch. For example when you are finished working on a feature you can't just merge it with `development` and push it to the repository. You have to create a pull request that has the required number of approving reviews before it is allow to be merged into master.
 
 ![Branch Protection](https://i.imgur.com/ixlVbpz.png)
 
