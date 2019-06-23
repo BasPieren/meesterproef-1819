@@ -260,13 +260,85 @@ a
 
 ## Reflection 🔬
 
-Here I will reflect on my learning goals which I set in the beginning of the project.
+Here I will reflect on my learning goals which I set in the beginning of the project and describe what I did to achieve these goals.
 
 ### Web App From Scratch
 
 ### CSS To The Rescue
 
 ### Real Time Web
+
+For Real Time Web I really wanted to dive deep into data management. During the course itself I didn't really have the change to do this so this seemt like a good place to do so, especially when there is a lot of user generated data that needs to go somewhere. As you can see in [week 3](#week-3) I started by drawing rough sketches of how the data model should look when a sport provider creates a event.
+
+After that I started translating these skechtes into actual objects.
+
+###### Version 1
+
+```js
+let event = {
+	general: {
+		sportProviderId: Math.random(),
+		title: req.body["event-name"],
+		description: req.body["event-description"]
+	},
+	sport: {
+		sportName: req.body["event-sport"],
+		category: req.body["event-category"]
+	},
+	location: {
+		city: req.body["event-city"],
+		address: req.body["event-address"]
+	},
+	time: {
+		timeStart: req.body["event-from-time"],
+		timeEnd: req.body["event-till-time"]
+	},
+	date: req.body["event-date"]
+}
+```
+
+My goal was to be as precise as I could when making these objects, so thats why there are multiple objects within objects. The object itself whent through multiple changes, for example when we decided that their needed to be a differacne between trainings and events and the ability to upload images.
+
+###### Version 2
+
+```js
+let event = {
+	general: {
+		id: Math.random(),
+		title: req.body["event-name"],
+		description: req.body["event-description"],
+		image: req.file ? req.file.filename : null,
+		type: req.body["event-type"],
+		recurring: req.body["event-recurring"]
+	},
+	sport: {
+		name: req.body["event-sport"],
+		category: req.body["event-category"]
+	},
+	location: {
+		name: req.body["event-location-name"],
+		city: req.body["event-city"],
+		address: req.body["event-address"]
+	},
+	time: {
+		date: req.body["event-date"],
+		start: req.body["event-from-time"],
+		end: req.body["event-till-time"]
+	}
+}
+```
+
+The biggest challange came when we made the change from saving data on the server, to saving the data in a seperate JSON file. The obvious first argument to do this was because every time the server would restart the data would be lost since whe didn't have a database and whe had to store the data somewhere else. But whe also had to think about what would happen when we already had fetched the data once before and what when we had not yet. Thats where our data management discussion from [week 4](#week-4) comes in.
+
+Here is once again the diagram that we drawed:
+
+![Data management](https://i.imgur.com/RdGDRuj.jpg)
+
+> New data management flow.
+
+So idea was this: We had one fetch function that we would all use. That function would have two parameters: The URL of the JSON file that we wanted to fetch and a server variable like `eventsData` for example that stored event data on the server itself in an array. When ever the function was called it would check if the array was empty, which would mean the data hadn't been fetched before, and if it was fill the array with data from the URL and return that array. Otherwise when the requested data had been fetched before we would just return the data that is already on the server stored in `eventsData` in this case.
+
+This was really something that I learned a lot from since I dind't have to think about it before.
 
 ### Git/GitHub
 
