@@ -328,6 +328,44 @@ let event = {
 }
 ```
 
+The flow of saving the data on the server worked as follows: The module has two parameters: `conceptEvents` and `eventsData` which are variables with empty arrays that are on the server. `conceptEvents` will be filled when the sport provider first makes a event but hasen't published it yet. Then when he wants to publish the event, the folowing `POST` request fires. Whe check if the url is `/publish-event` and if the `eventsData` array is empty. If it is whe push the data from `conceptEvents`into it and clear `conceptEvents` before we redirect the user to the events page.
+
+But if the `eventsData` is not empty whe start a check. Whe try to `find()` a matching title. This is to prevent duplicate events. If the tile doesn't exist we fill `eventsData`.
+
+```js
+module.exports = (app, fs, conceptEvents, eventsData) => {
+	app.post("/publish-event", (req, res) => {
+		if (req.url === "/publish-event" && eventsData.length === 0) {
+			console.log(conceptEvents)
+
+			eventsData.push(conceptEvents[0])
+
+			conceptEvents.length = 0
+
+			res.redirect("/events")
+		} else if (eventsData.length > 0) {
+			const exists = eventsData.find(e => {
+				return (
+					e.general.title.toLowerCase() ===
+					conceptEvents[0].general.title.toLowerCase()
+				)
+			})
+			if (!exists) {
+				eventsData.push(conceptEvents[0])
+
+				conceptEvents.length = 0
+
+				res.redirect("/")
+			} else {
+				console.log("Sorry, that event already exists.")
+
+				res.redirect("/")
+			}
+		}
+	})
+}
+```
+
 The biggest challange came when we made the change from saving data on the server, to saving the data in a seperate JSON file. The obvious first argument to do this was because every time the server would restart the data would be lost since whe didn't have a database and whe had to store the data somewhere else. But whe also had to think about what would happen when we already had fetched the data once before and what when we had not yet. Thats where our data management discussion from [week 4](#week-4) comes in.
 
 Here is once again the diagram that we drawed:
@@ -337,6 +375,20 @@ Here is once again the diagram that we drawed:
 > New data management flow.
 
 So idea was this: We had one fetch function that we would all use. That function would have two parameters: The URL of the JSON file that we wanted to fetch and a server variable like `eventsData` for example that stored event data on the server itself in an array. When ever the function was called it would check if the array was empty, which would mean the data hadn't been fetched before, and if it was fill the array with data from the URL and return that array. Otherwise when the requested data had been fetched before we would just return the data that is already on the server stored in `eventsData` in this case.
+
+Later I also altered the previous shown `POST` request to also create a JSON file with all the data from `eventsData` so that we could `fetch()` that file.
+
+```js
+fs.writeFile(
+	"./data/json/sportEvents.json",
+	JSON.stringify(eventsData),
+	err => {
+		if (err) {
+			return console.log(err)
+		}
+	}
+)
+```
 
 This was really something that I learned a lot from since I dind't have to think about it before.
 
