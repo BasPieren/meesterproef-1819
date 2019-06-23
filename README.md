@@ -157,7 +157,7 @@ Koop saw this differently. He said we needed to be more active in the concepting
 
 Now I said I understaind that we come from CMD, we are not brainless developers that just make what they are given. But for the meesterproef we get graded for what we make, not the concept. Koop still disagreed. I said "Well I choose the wrong project then."
 
-So after our meeting we said down and started prioretising the most important features in the app. Whe made a MoSCow chart. I would start working out the sport provider flow of creating events since I wanted to focus on data managment.
+So after our meeting we said down and started prioretising the most important features in the app. Whe made a MoSCoW chart. I would start working out the sport provider flow of creating events since I wanted to focus on data managment.
 
 ![MoSCoW](https://i.imgur.com/bkKiAp4.jpg)
 
@@ -183,7 +183,11 @@ I really wanted to make sure the data flow would be as well thought out as possi
 
 I started by setting up a basic HTML `form` and started adding `input` fields like title, description, date etc. Since we would not work with a real database I had to save on the server. So alot of my time in the third week went into setting up the user flow and thinking about how I wanted the data to look and behave.
 
-At the end of the week we also had a other meeting with Koop. We discussed our progress and showed him the now pretty much finished quiz. We also continued our conversation about working togheter with the UX'ers. It became pretty cleat that we just could not wait for them to develop their concept further. We also had the feeling that the UX'ers don't really know what to expect of us, what we can do. They are very much stuck in their personal grading and are focusing less on the project and the team work that could be happening but just isn't.
+At the end of the week we also had a other meeting with Koop. We discussed our progress and showed him the now pretty much finished quiz. We also continued our conversation about working togheter with the UX'ers. It became pretty clear that we just could not wait for them to develop their concept further. We also had the feeling that the UX'ers don't really know what to expect of us, what we can do. They are very much stuck in their personal grading and are focusing less on the project and the team work that could be happening but just isn't. So we decided that we would continue with our own concept.
+
+During our talk with Koop it became clear that the app and the people using it would benefit more from more focus on events than the actual sport clubs themselves. The idea from the UX'ers was that, for example, at the end of the quiz you would get a couple of sports that would fit you the most and if you click on a sport you would get a list of sport clubs for that sport. But why? The whole problem is that people don't join sport clubs so why not show a list of events so people can try out the sport?
+
+So thats what we did. We decided to focus more on events so that we could use that as the connecting element for the features that we were working on.
 
 ### Week 4
 
