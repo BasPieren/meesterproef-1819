@@ -264,6 +264,68 @@ Here I will reflect on my learning goals which I set in the beginning of the pro
 
 ### Web App From Scratch
 
+Having seperate modules for each page/feature is a good first step in avoiding unnecessary problems. Modules allow you to seperate your code into different files that get imported into the main file like `app.js`, `script.js` or `style.css`. When you do this you and your team are able to almost entirly eliminate merge conflicts because you are all working in seperate files so you almost never have to work in the same file at the same time. This is something that I learned about in the first couple of weeks of the minor and wanted to take to the next level for the meesterproef.
+
+As you can see in [week 2](#week-2) we wanted to apply modules to both the Node server the client side JavaScript and, something that I dind't know existed, CSS. Even to it is pretty simple, let me show you how it works.
+
+In this chase inside `styles.css` you can import different CSS files. We had the root CSS file where `styles.css` was located and all the modules where inside the modules folder.
+
+```css
+/* ---------- GLOBAL ---------- */
+@import "./fonts.css";
+@import "./root.css";
+@import "./general.css";
+
+/* ---------- HEADER ---------- */
+@import "modules/header/header.css";
+@import "modules/header/header-sidebar.css";
+
+/* ---------- HERO ---------- */
+@import "modules/hero.css";
+
+/* ---------- HOMEPAGE ---------- */
+@import "modules/home/homepage-quiz.css";
+@import "modules/home/homepage-community.css";
+@import "modules/home/homepage-places.css";
+@import "modules/home/homepage-healthy-living.css";
+
+/* ---------- QUIZ ---------- */
+@import "modules/quiz/quiz.css";
+@import "modules/quiz/quiz-carousel.css";
+
+/* ---------- SPORTS ACTIVITIES A-Z ---------- */
+@import "modules/sportslist/sportslist.css";
+
+/* ---------- SPORTPROVIDER ---------- */
+@import "modules/sportprovider/sportprovider-login.css";
+@import "modules/sportprovider/sportprovider-dashboard.css";
+@import "modules/sportprovider/sportprovider-create-event.css";
+
+/* ---------- EVENTS ---------- */
+@import "modules/events/events.css";
+
+/* ---------- FOOTER --------- */
+@import "modules/footer/footer.css";
+```
+
+Modules allowed us to clearly divide code into there own little environment. We did run into some problems later on to that required attetion. Most of this can be read about in [week 4](#week-4) but let me touch upon it here as well. I had noticed that our modules folders where beginning to get kind of crowed with all kind of different module files that were all located on the same level and we all started to loose the overview of what module was for what. So we started to draw ot a new structure.
+
+![Drawing Structure](https://i.imgur.com/t0zYToS.jpg)
+
+> Drawing the new module structure.
+
+We also went to sit down and discuss our code. Also here things where kinda getting messed up so it was time for a refactor. We were rewriting things that didn't nead rewriting, code was wrtitten outside of its module and we were kinda slacking on the code guidelines. The guidelines that we setteld own where the follwoing:
+
+- Dubble `"` instead of single `'`.
+- No `;` at the end.
+- Multiple variables would each have `const` or `let` written infront of them. No `,` seperation.
+
+![Refactor Class](https://i.imgur.com/kiDbAoB.jpg)
+
+> The refactor class
+
+Alot of the things we did later on in week 4 should have been discussed in week 1. This was a learing moment for me because now we where spending time on discussing realativly simple stuff that can have such positive impact on your workflow, especially in a team, to late into the project.
+
 ### CSS To The Rescue
 
 ### Real Time Web
