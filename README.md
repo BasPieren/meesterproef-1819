@@ -45,7 +45,7 @@ These are my learing goals for the meesterproef:
 
 And not a rubic from the previous courses but I want to learn more about working togheter on a Git/GitHub project.
 
-| Technology | Goal                 | Descriptino                                                                                  |
+| Technology | Goal                 | Description                                                                                  |
 | ---------- | -------------------- | -------------------------------------------------------------------------------------------- |
 | **Github** | _Project work flow._ | I want to learn how to work together with other developers on a project that uses Git/GitHub |
 
