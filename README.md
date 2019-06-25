@@ -324,9 +324,59 @@ We also went to sit down and discuss our code. Also here things where kinda gett
 
 > The refactor class
 
-Alot of the things we did later on in week 4 should have been discussed in week 1. This was a learing moment for me because now we where spending time on discussing realativly simple stuff that can have such positive impact on your workflow, especially in a team, to late into the project.
+Alot of the things we did later on in week 4 should have been discussed in week 1. This was a learing moment for me because now we where spending time on discussing realativly simple stuff that can have such positive impact on your workflow, especially in a team, to late into the project. But also learned that I get a great amout of personal satisfaction of creating the structure of a project. For me the next step to take this even further would be to create components using a framework like React for example.
 
 ### CSS To The Rescue
+
+For CSS To The Rescue I wanted to learn about using the [BEM](http://getbem.com/introduction/) method to organize our CSS styles. During the course its self I was assigned using no classes and ids so I saw the meesterproef as a good place to apply BEM. Another reason for me to learn about BEM was because during the weekly mingles I saw that alot of companys where using it.
+
+Let me start by giving a short introduction of what BEM is. BEM is a method for organizing your CSS to make you able to work faster and write less. It allows you to:
+
+- Work more modular.
+- Re use more.
+- Structure better.
+
+BEM stands for 'Block, Element, Modifier'. The _block_ being the main element which can be a `button` or `article` for example. The _element_ is part of a block, for example a `p` or `ul`. And finaly the _modifer_ which is used to desribe the state of the _block_ or _element_ so for eample `highlighted` or `required`.
+
+So let me give you an example from the project. Our `button` for example. So you start with your _block_ level element class name, which in our case was button. This class gives the button its basic shape and color which can be expanded on with _modifiers_.
+
+```css
+.button {
+	display: block;
+	margin: 0 auto;
+	padding: 1em 2em;
+	width: fit-content;
+	color: var(--text-color);
+	font-size: var(--font-size-15px);
+	font-weight: 600;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 25px;
+	transition: 0.2s;
+}
+```
+
+A example of a _modifier_ can be `--ghost` which gives the button a border with a small drop shadow. But also `--solid-white` or `--solid-yellow`.
+
+```css
+.button--solid-yellow {
+	background-color: var(--secondary-color);
+}
+
+.button--solid-white {
+	background-color: var(--white);
+}
+
+.button--ghost {
+	background-color: var(--white);
+	border: 1px solid var(--text-color);
+	box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2);
+}
+```
+
+The ultimate goal with BEM is to work faster and smarter, especially in a large team with a large project. I personally really love this way of structuring your CSS because it gives you so much power and really goes a long way into eliminating unnecessary repeating. I did notice to that BEM can become a little bit awkward when used for items that you know wont be repeated since you start to make sometimes pretty specific classes to wont be reused.
+
+It is also something you should try to set up and discuss as much as you can in the beginning of a project especially if you work with people wo don't have any previous experience with BEM. If you start later on it becomes a little bit more difficult to manage.
 
 ### Real Time Web
 
