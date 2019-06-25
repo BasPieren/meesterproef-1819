@@ -502,7 +502,9 @@ fs.writeFile(
 )
 ```
 
-This was really something that I learned a lot from since I dind't have to think about it before.
+This was really something that I learned a lot from since I dind't have to think about it before. And it really is true what they say: Think before you start programming. That is something that I learnt you can apply to all apects of a project. When you know what you want to do and where you want to work towards, you can work so much faster.
+
+And it is really valuable to talk with your team about these kind of things so that everybody is on the same level and understands what there needs to happen and what they can expect when it's finished.
 
 ### Git/GitHub
 
