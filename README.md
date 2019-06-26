@@ -548,7 +548,7 @@ app.post("/publish-event", async (req, res) => {
 })
 ```
 
-We also use multer to save the images:
+We also use [multer](https://www.npmjs.com/package/multer) to save the images:
 
 ```js
 const storage = multer.diskStorage({
