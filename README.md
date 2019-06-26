@@ -4,7 +4,7 @@ This is my personal repo for the @cmda-minor-web 2019 meesterproef.
 
 ![Project image](https://i.imgur.com/ETWYR4w.png)
 
-> Image description
+> The final prototype
 
 ## Table of Contents 🗃
 
@@ -256,7 +256,11 @@ The rest of the week I continued work on the adding of events. On thursday we al
 
 _24-27 juni_
 
-a
+The final week consistet mostly of finishing up the project and rooting out any bugs. On monday we met with Koop and disscused how we should prepare for our presentation with the client on wednesday. We decided that the main focus should be on finishing up the design as much as possible and root out any inconsistencies as much as possible.
+
+We finished this up on thuesday and started preparing our presentation. In the presentation we wanted to be as clear as we could about our concept and the three use cases we worked out within the prototype. Aside from the presentation we continued to fix any last bugs and styling issues.
+
+On wednesday we had our presentation for Harry, Vincent and Daan. We gave a brief introduction and talked about the research that the UX students had done and what we had worked out in our prototype and gave a quick demo. Harry, Vincent and Daan where very pleased with the end result and asked us for some tips on how to approach the actual realisation of the project.
 
 ## Reflection 🔬
 
