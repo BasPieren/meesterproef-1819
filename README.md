@@ -156,11 +156,12 @@ root
 |  |  |
 |  |  |- modules/
 |  |  |- styles.css
+|  |
 |  |- images/
-|  |  |
+|  |
 |  |- js/
-|  |  |- modules
-|  |  |- script.js
+|     |- modules
+|     |- script.js
 |
 |- views/
 |  |
