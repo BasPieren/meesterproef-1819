@@ -12,7 +12,7 @@ This is my personal repo for the @cmda-minor-web 2019 meesterproef.
 - [The Project](#the-project-)
   - [The Stakeholders](#the-stakeholders)
   - [The Context](#the-context)
-  - [Design Descicions](#design-descicions)
+  - [Design Decisions](#design-decisions)
 - [Learning Goals](#learning-goals-)
 - [Design Rationale](#design-rationale-)
 - [Product Biography](#product-biography-)
