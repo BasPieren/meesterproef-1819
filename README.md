@@ -74,7 +74,7 @@ See [here](#reflection-) for my reflection on my learing goals.
 
 ## Design Rationale 📑
 
-See the following [Gitbook](https://app.gitbook.com/@meesterproef/s/design-rationale/) for the design rationale.
+See the following [Gitbook](https://meesterproef.gitbook.io/design-rationale/) for the design rationale.
 
 ## Product Biography 🛠️
 
