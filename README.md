@@ -157,6 +157,7 @@ root
 |  |  |- modules/
 |  |  |- styles.css
 |  |- images/
+|  |  |
 |  |- js/
 |  |  |- modules
 |  |  |- script.js
