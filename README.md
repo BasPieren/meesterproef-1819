@@ -82,13 +82,13 @@ Here I will describe the process of each week.
 
 ### Week 1
 
-_27-31 juli_
+_27-31 mei_
 
-Altough the project officially started in the week of the 27th of juli we had the kick-off a week earlier. During the kick-off we sat down with Harry from the sports promotion department, Daan from the [Academie van de Stad](https://academievandestad.nl) and the UX students from the UX minor. Harry gave a brief intro where he talked about what the project wants to acieve: To get more people to join a sports club. He continued by saying that there is a lot of offer but just not enough partisipants. So he wants to create platform where all the information that is already out there comes togheter in one place, a webapp/website.
+Altough the project officially started in the week of the 27th of juli we had the kick-off a week earlier. During the kick-off we sat down with Harry from the sports promotion department, Daan from the [Academie van de Stad](https://academievandestad.nl) and the UX students from the UX minor. Harry gave a brief intro where he talked about what the project wants to acieve: To get more people to join a sports club. He continued by saying that there is a lot of offer but just not enough partisipants. So he wants to create a platform where all the information that is already out there comes togheter in one place, a webapp/website.
 
 The UX students already started working on the project 2 weeks earlier during their minor and they presented the early stages of their concepts. They all basically came down to the same thing: A place where people can share and lookup sports, stories and events and find out what sports fits them through a online quiz. They want sport providers to have a seperate enviorment where they can create events and add other information about their sport club/organization to the platform.
 
-We then started discussing what we could and what we could not do. The whay we saw it we could setup most of the platform, even if it where just static pages, and then work out what was really needed. Due to the lack of wireframes at the moment we weren't really able to make a clear promise of what we would deliver.
+We then started discussing what we could and what we could not do. The way we saw it we could setup most of the platform, even if it where just static pages, and then work out what was really needed. Due to the lack of wireframes at the moment we weren't really able to make a clear promise of what we would deliver.
 
 The plan for the first week was that the UX'ers would finish their wireframes on monday and present them to us and Harry on thuesday.
 
