@@ -10,6 +10,9 @@ This is my personal repo for the @cmda-minor-web 2019 meesterproef.
 
 - [Description](#description-)
 - [The Project](#the-project-)
+  - [The Stakeholders](#the-stakeholders)
+  - [The Context](#the-context)
+  - [Design Descicions](#design-descicions)
 - [Learning Goals](#learning-goals-)
 - [Design Rationale](#design-rationale-)
 - [Product Biography](#product-biography-)
@@ -35,6 +38,20 @@ Within the Southeast district of Amsterdam, the Sports promotion department is r
 I worked on this project togheter with three other students: [Robin Stut](https://github.com/RobinStut), [Sterre van Geest](https://github.com/sterrevangeest) and [Jesse Dijkman](https://github.com/jesseDijkman1). Although we were working togheter on this project, it was also important that we worked on our own personal learning goals.
 
 Our team worked togheter with four students from the UX minor to create a socail web app that could be used by both residetns of Southeast, sportproviders and sportsbrokers as a way to make more people join sportsclubs in Southeast.
+
+### The Stakeholders
+
+- **The residents of Southeast (young and old):** They want to use the app to find sports that they maybe wouldn't have thought about at first at first. They need to be inspirited
+- **The sport providers:** They want to use the app to reach the residents by creating a personal page for their club or organisation where they can post events for example.
+- **The sport brokers:** They want to have a list of all sports that they can browse through to help people find a fitting sport.
+
+### The Context
+
+The context in which the app will be used will most of the time consist of people using there smartphone to use the app, which can be anywhere.
+
+### Design Decisions
+
+- Event based
 
 ## Learning Goals 🎓
 
