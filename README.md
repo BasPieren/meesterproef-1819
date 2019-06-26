@@ -412,10 +412,38 @@ After that I started translating these skechtes into actual objects.
 ```js
 let event = {
 	general: {
+		sportProviderId: Math.random(),
+		title: req.body["event-name"],
+		description: req.body["event-description"]
+	},
+	sport: {
+		sportName: req.body["event-sport"],
+		category: req.body["event-category"]
+	},
+	location: {
+		city: req.body["event-city"],
+		address: req.body["event-address"]
+	},
+	time: {
+		timeStart: req.body["event-from-time"],
+		timeEnd: req.body["event-till-time"]
+	},
+	date: req.body["event-date"]
+}
+```
+
+My goal was to be as precise as I could when making these objects, so thats why there are multiple objects within objects. The object itself whent through multiple changes, for example when we decided that their needed to be a difference between trainings and events and the ability to upload images.
+
+###### Version 2
+
+```js
+let event = {
+	general: {
 		id: Math.random(),
 		title: req.body["event-name"],
 		description: req.body["event-description"],
 		image: req.file ? req.file.filename : null,
+		type: req.body["event-type"],
 		recurring: req.body["event-recurring"]
 	},
 	sport: {
@@ -435,9 +463,7 @@ let event = {
 }
 ```
 
-My goal was to be as precise as I could when making these objects, so thats why there are multiple objects within objects. The object itself whent through multiple changes, for example when we decided that their needed to be a difference between trainings and events and the ability to upload images.
-
-###### Version 2
+###### Version 3
 
 ```js
 let event = {
@@ -446,7 +472,6 @@ let event = {
 		title: req.body["event-name"],
 		description: req.body["event-description"],
 		image: req.file ? req.file.filename : null,
-		type: req.body["event-type"],
 		recurring: req.body["event-recurring"]
 	},
 	sport: {
