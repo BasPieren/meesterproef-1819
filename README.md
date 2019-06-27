@@ -281,6 +281,8 @@ We finished this up on thuesday and started preparing our presentation. In the p
 
 On wednesday we had our presentation for Harry, Vincent and Daan. We gave a brief introduction and talked about the research that the UX students had done and what we had worked out in our prototype and gave a quick demo. Harry, Vincent and Daan where very pleased with the end result and asked us for some tips on how to approach the actual realisation of the project.
 
+![Final Presentation](https://i.imgur.com/vrmlVqp.jpg)
+
 ## Reflection 🔬
 
 Here I will reflect on my learning goals which I set in the beginning of the project and describe what I did to achieve these goals.
