@@ -177,7 +177,7 @@ The most important thing was to use modules. If we would made sure everybody was
 
 On thursday Sterre had finished a visual design that would act as our baseline for the UI. I started working on applying the styles to the HTML/CSS prototype for the rest of the week.
 
-![Homepage UI Design](https://i.imgur.com/spBNCcq.png)
+![Homepage UI Design](https://media.giphy.com/media/cNwgkYGg0brCVECLdX/giphy.gif)
 
 > The UI design for the homepage.
 
