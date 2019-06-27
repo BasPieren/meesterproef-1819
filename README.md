@@ -181,11 +181,11 @@ On thursday Sterre had finished a visual design that would act as our baseline f
 
 > The UI design for the homepage.
 
-On friday we also had our first meeting with Koop in which we discussed the progress of the project. And I will be honest that I got kind of... vocal. I pointed out that I wasn't to happy with how the UX'ers where using us to make the testing appointments because, them speaking english, they fought it would be better if we did it which kind of rubbed me the wrong way. Whe then started discussing the cooperation between the two minors and Koop pointed out some serious flawes in the concept and found it more of an idea than a serious concept. I dind't really see the problem, we are the developers in this situation, we make the stuff they come up with. Concepting is their speciality.
+On friday we also had our first meeting with Koop in which we discussed the progress of the project. And I will be honest that I got kind of... vocal. I pointed out that I wasn't to happy with how the UX'ers where using us to make the testing appointments because, them speaking english, they tought it would be better if we did it which kind of rubbed me the wrong way. Whe then started discussing the cooperation between the two minors and Koop pointed out some serious flawes in the concept and found it more of an idea than a serious concept. I dind't really see the problem, we are the developers in this situation, we make the stuff they come up with. Concepting is their speciality.
 
 Koop saw this differently. He said we needed to be more active in the concepting process and build more prototypes to test asumptions/ideas. I disagreed. I said that I dind't choose the web dev minor to start working on concepts and that I wanted to make one single solid product, not a bunch of spaghetti code prototypes.
 
-Now I said I understaind that we come from CMD, we are not brainless developers that just make what they are given. But for the meesterproef we get graded for what we make, not the concept. Koop still disagreed. I said "Well I choose the wrong project then."
+Now I said I understand that we come from CMD, we are not brainless developers that just make what they are given. But for the meesterproef we get graded for what we make, not the concept. Koop still disagreed. I said "Well I chose the wrong project then."
 
 So after our meeting we said down and started prioretising the most important features in the app. Whe made a MoSCoW chart. I would start working out the sport provider flow of creating events since I wanted to focus on data managment.
 
